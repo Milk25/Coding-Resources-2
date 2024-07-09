@@ -1,0 +1,59 @@
+const { TetrahedronGeometry } = require("three")
+
+left to right
+right to left
+
+2 > 1 > 0 left to right
+// true
+
+3 > 2 > 1 // false
+
+3 > 2 // true
+
+true > 1 // false
+
+1 > 1
+false
+
+if(a > 0){
+
+} else if (a < 0){
+
+} else {
+
+}
+
+Statement-
+if else
+Ternary
+switch
+
+var age = prompt('What is your age?'); // 15 rental not allowed
+
+if(age < 18){
+    alert('Rental not allowed');
+} else if(age >= 18 && age < 25){
+    alert('Rental allowed with co-signed');
+} else {
+    alert('Rental allowed');
+}
+
+
+switch(expression){
+    case choice:
+        break;
+    case choice:
+        break;
+        default;
+}
+
+
+
+
+
+
+
+
+
+
+

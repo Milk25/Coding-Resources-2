@@ -1,0 +1,38 @@
+Equality ===
+Equality with coercion ==
+
+2 === 2 // true
+true === true // true
+undefined === null // false
+"text" === "textssad" // false
+"2" === 2 // false
+
+[] === [] // false
+{} === {} // false
+(function(){}) === (function(){}) // false
+
+var a = {} // undefined
+var b = {} // undefined
+
+a
+{}
+var b = a; // undefined
+a === b // true
+
+Object, Array, function
+-their own separate type
+
+
+primitive type 
+-own type
+
+
+
+
+
+
+
+
+
+
+

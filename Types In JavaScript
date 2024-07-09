@@ -1,0 +1,42 @@
+Types in JavaScript
+
+
+String
+Number
+Boolean
+Null
+undefined
+Symbol
+
+Object-
+Array
+function
+
+String
+
+'My Name is Aziz, 123, & %';
+"My Name is Aziz, 123, & %";
+
+Number
+123
+123.50
++0
+-0
+-0.4564
+
+Boolean
+
+true 
+false
+
+Null
+
+null = nothing
+
+undefined
+
+Symbol
+
+Symbol('Aziz')
+Symbol(123)
+

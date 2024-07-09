@@ -1,0 +1,68 @@
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+document.getElementById("demo").innerHTML = fruits.toString();
+
+Results:
+Banana, Orange, Aplle, Mango
+
+2.
+var fruits = ["Banana", "Orange", "Apple", "MAngo"];
+
+document.getElementById("demo").innerHTML = fruits.join("*");
+
+results:
+Banana*Orange*Apple*Mango
+
+3.
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+fruits.pop();
+
+results:
+Banana, Orange, Apple
+
+4.
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+fruits.push("Kiwi");
+
+results:
+Banana, Orange, Apple, Mango, Kiwi
+
+5.
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+fruits.shift();
+
+results:
+Orange, Apple, Mango
+
+6.
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+fruits.unshift("Lemon");
+
+results:
+
+Banana, Orange, Apple, Mango, Lemon
+
+
+7.
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+fruits[0] = "Kiwi";
+
+results:
+
+Kiwi, Orange, Apple, Mango
+
+
+8.
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+fruits.splice(2,0, "Lemon", "Kiwi");
+
+
+
+
+

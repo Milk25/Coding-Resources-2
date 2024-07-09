@@ -1,0 +1,35 @@
+Example merging to Arrays
+
+
+var myGirls = ["Cecile, "Lone"];
+
+var myBoys = ["Emil", "Tobias", "Linus"];
+
+var myChildren = myGirls.concat(myBoys);
+
+results:
+// Concatenates (joins) myGirls and myBoys
+
+
+2.
+example (Merging three Arrays)
+
+var arr1 = ["Cecile", "Lone"];
+var arr2 = ["Emil", "Tobias", "Linus"];
+var arr3 = ["Robin", "Morgan"];
+
+var myChildren = arr1.concat(arr2, arr3);
+
+results:
+// Concatenates arr1 with arr2 and arr3
+
+
+3.
+Example (Merging an Array with values)
+
+var arr1 = ["Emil", "Tobias", "Linus"];
+
+var myChildren = arr1.concat("Peter");
+
+
+4.

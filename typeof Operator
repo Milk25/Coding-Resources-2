@@ -1,0 +1,22 @@
+var a = "Aziz"
+typeof a // "string"
+
+typeof 'blablabla' // string
+
+typeof 123 // number
+
+typeof null // "object"
+
+typeof undefined // "undefined"
+
+typeof {a : 123} // "object"
+
+typeof function(){} // "function"
+
+typeof [12,12] // "object"
+
+
+
+
+
+

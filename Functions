@@ -1,0 +1,69 @@
+<script src="app.js"></script>
+
+function fun() {
+    var a = 1 + 2;
+    console.log(a);
+    alert('hi');
+}
+
+fun();
+fun();
+
+// 3
+// hi
+// 3
+// hi
+
+
+function someName(param1, param2){
+    var a = param1 + "love" + param2;
+    return a;
+}
+
+someName("Me", "You"); // Me love You
+
+
+function fun(first, second){
+    var a = first + second;
+    console.log(a);
+}
+fun(); // NaN
+fun(); // NaN
+
+fun(5, 20); // 25
+
+function merge(first, second){
+    var a = first + ' love ' + second;
+    console.log(a);
+    console.log(result1);
+    return a;
+}
+
+merge('I', 'you') // I love you
+merge('me', 'you') // me love you
+
+var result1 = merge('me', 'you');
+var result2 = merge('I', 'you');
+console.log(result1, result2);
+
+// me love you
+// I love you
+
+on the Console
+
+alert
+f alert(){[native code]}
+
+console.log();
+key      method
+
+
+
+
+
+
+
+
+
+
+

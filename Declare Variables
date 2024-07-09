@@ -1,0 +1,38 @@
+let name = "John"
+
+let age = 30;
+
+let isStudent = true;
+
+let fruits = ["apple", "banana", "orange"];
+
+let person = {name: "Alice", age: 25};
+
+
+#________________________
+
+console.log("Name:", name)
+console.log("Age:", age)
+console.log("Is student:", isStudent)
+console.log("Fruits:", fruits)
+console.log("Person:", person)
+
+
+let x = 5;
+let y = 3;
+let sum = x + y;
+console.log("Sum:", sum)
+
+
+# Perform Comparison
+
+let isGreaterThan = x > y;
+console.log("Is x greater than y?", isGreaterThan)
+
+
+# Perform Logical Operators
+
+let isValid = true || false;
+              true && false;
+console.log("Is it valid?", isValid);
+

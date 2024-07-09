@@ -1,0 +1,18 @@
+typeof arr // "object"
+
+Array.isArray(arr) // true
+
+Array.isArray(123) // false
+
+
+
+
+
+
+
+
+
+
+
+
+

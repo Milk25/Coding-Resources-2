@@ -1,0 +1,27 @@
+let name1 = "John Smith"
+
+let name1 = "Joe Smith"
+# canot be declared
+# can be reassigned
+
+name1 = "Joe Smith"
+
+let name1
+name1 = "Joey"
+
+
+#_________________________
+
+function myFunction() {
+    let name1 = "Joey Smith"
+}
+
+#___________________________
+
+# Const
+
+const name1 = "John Smith"
+name1 = "Jane Smith"
+
+# canot change or reassigned
+

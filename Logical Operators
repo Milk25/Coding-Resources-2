@@ -1,0 +1,38 @@
+ || Or
+ && And
+
+ 0 || null
+ undefined || "aziz"
+   // null
+   // "aziz"
+
+   null // 0
+   "aziz" || "ali"
+        // 0
+        // "aziz"
+
+"aziz" && 0
+"aziz" && "ali"
+        // 0
+        // "ali"
+
+Truthy Values-
+
+true
+"text"
+Infinity
+- Infinity
+{}
+[]
+null && 0
+// null
+
+Falsy Values
+
+false
+"0"
+0
+-0
+NaN
+null
+undefined

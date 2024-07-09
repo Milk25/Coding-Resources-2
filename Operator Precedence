@@ -1,0 +1,10 @@
+MDN Web Docs
+
+2 + 4 * 3 // 14
+
+2 + (4 * 3) // 14
+
+- () - grouping operator
+
+(2 + 4) * 3 // 18
+

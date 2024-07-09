@@ -1,0 +1,19 @@
+relational / comparison
+
+2 >= 1 // true
+2 >= 2 true
+2 >= 5 false
+5 >= 2 true
+
+2 >= "2" true
+"aziz" >= "aziz" true
+2 != 2 false
+
+2! = 2 false
+2! = "2" false
+2! == "2" true
+
+>= greater than or equal to
+<= less than or equal to
+!= not equal after coercion
+!== not equal

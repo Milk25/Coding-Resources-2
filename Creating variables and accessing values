@@ -1,0 +1,27 @@
+"aziz"
+ var name = "Aziz"
+ name // Aziz
+
+ var user = {fullName : "Aziz Ali", dob : 1988}
+
+ dot operator
+
+user.dob // 1988
+user.fullName // Aziz Ali
+user.city // undefined
+
+Bracket Notation
+
+user['fullName'] // Aziz Ali
+
+var st = "fullName"
+user[st] // Aziz Ali
+
+
+
+
+
+
+
+
+

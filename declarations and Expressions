@@ -1,0 +1,22 @@
+// function declaration
+greet(); // still works because of hoist/hoisting
+
+function greet(){
+    console.log('hello there');
+}
+
+greet(); // hello there
+greet();
+greet();
+
+// function expression
+const speak = function(){
+    console.log('good day!');
+}
+
+
+speak(); // can't because of hoisting
+speak();
+speak();
+
+

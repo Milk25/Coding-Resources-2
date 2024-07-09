@@ -1,0 +1,15 @@
+variable declaration-
+var a;
+
+console.log(a); // undefined
+
+variable initialization-
+
+a = 'Coding';
+console.log(a); // Coding
+
+variable assignment-
+
+a = 'something else';
+console.log(a); // something else
+

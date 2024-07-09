@@ -1,0 +1,32 @@
+function declaration
+
+function mergeText(text1, text2){
+    var merged = text1 + ' ' + text2;
+    console.log(merged);
+}
+
+mergeText('Aziz', 'Ali') // Aziz Ali
+
+
+
+function expression
+
+anonymous function
+var mergeTextTwo = function(text1, text2){
+    var merged = text1 + ' ' + text2;
+    console.log(merged);
+}
+
+mergeTextTwo('Aziz', 'Ali');
+// Aziz Ali
+
+
+
+
+
+
+
+
+
+
+

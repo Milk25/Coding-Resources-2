@@ -1,0 +1,82 @@
+Syntax:
+
+if (condition) {
+
+}
+
+
+example:
+
+if(hour < 18){
+    greeting = "Good day;
+}
+
+
+The else statement
+
+if(condition){
+
+}else{
+
+}
+
+example:
+if(hour < 18){
+    greeting = "Good day";
+} else {
+    greeting = "Good evening";
+}
+
+
+
+
+3.The else if statement
+
+if(condition) {
+
+}else if(condition)
+
+{else}
+
+}
+
+example:
+
+if(time < 10){
+    greeting = "Good morning";
+} else if(time < 20){
+    greeting = "Good day";
+} else {
+    greeting = "Good evening"
+}
+
+// switch statement
+
+syntax:
+
+ 4. switch(expression){
+    case x:
+
+    break;
+
+    case y:
+
+    break;
+
+    default:
+}
+
+example:
+
+switch (new Date().getDay()){
+    case O:
+    day = "Sunday";
+    break;
+
+    case 1:
+    day = "Monday";
+    break;
+
+    case 6:
+    day = "Saturday";
+}

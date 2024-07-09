@@ -1,0 +1,34 @@
+# Number
+
+1, 3.14, 5
+
+# string
+
+"hello", "world", "123"
+
+# Booleans
+
+true, false
+
+# Undefined - Represents a variable that has been declared but not assigned a value.
+
+# Null - Represents the absence of a value.
+
+# Symbol - Represents unique identifiers (added in ECMAScript 6)
+
+
+# Object Data Types
+
+let person = {name: "John", age: 30}
+
+
+# Array Data Types
+
+let numbers = [1, 2, 3, 4, 5]
+
+
+# Function Data Types
+
+function greet(name) {
+    console.log("Hello, " + name + "!" );
+}

@@ -1,0 +1,31 @@
+const { loadGetInitialProps } = require("next/dist/shared/lib/utils");
+
+var i;
+
+for(i = 0;i < cars.length;i++){{
+    text += cars[i] + "<br>";
+}
+
+// Different kind of loops
+for
+for/in
+for/of
+while
+do/while
+
+
+//The for loop
+
+syntax:
+
+for(statement 1; statement 2; statement 3){
+
+}
+
+example:
+
+for(i = 0;i < 5;i++){
+    text += "The number is " + i + "<br>";
+}
+
+

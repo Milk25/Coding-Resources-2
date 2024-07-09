@@ -1,0 +1,30 @@
+var arr = []
+var arr = [1, "text", false, {'name' : 'Aziz'}, 123]
+
+index 0, 1, 2, 3...
+
+arr[0] // 1
+arr[4] // 123
+arr[50] // undefined
+arr.length // 5
+arr[0] = "Aziz"
+arr["Aziz", "text", false]
+arr[50] = "weirdness"
+arr[123, empty x 46, "weirdness"]
+arr.length // 51
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

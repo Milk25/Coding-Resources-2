@@ -1,0 +1,24 @@
+# string
+
+let name = "John"
+
+
+# numbers
+
+let age = 30;
+
+
+# Booleans
+
+let isStudent = true
+
+
+# Arrays
+
+let fruits = ["apple", "banana", "Orange"]
+
+
+# Objects
+
+let person = {name: "Alice", age = 25};
+

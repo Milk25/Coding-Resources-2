@@ -1,0 +1,30 @@
+# Arithmetic Operators:
+
++, -, *, /, %
+
+# Assignment Operators:
+
+=, +=, ==, /=
+
+# Comparison Operators:
+
+==, !=, ===, !==, <, >, <=, >=
+
+
+# Logical Operators:
+
+&&, ||, !
+
+
+# Example:
+
+let x = 5;
+
+let y = 3;
+
+let sum = x + y;
+
+let isGreaterThan = x > y;
+
+let isValid = true && false;
+
